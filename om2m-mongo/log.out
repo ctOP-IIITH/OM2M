@@ -1,0 +1,48 @@
+[2024-02-27 13:05:54,050 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+Starting Data Mapper
+[2024-02-27 13:05:54,051 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+Registering XML Mapper Service..
+[2024-02-27 13:05:58,098 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+XML Mapper service registered.
+[2024-02-27 13:05:58,098 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+Registering JSON Mapper Service..
+[2024-02-27 13:06:00,587 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+JSON Mapper service registered.
+[2024-02-27 13:06:00,671 INFO] - org.eclipse.om2m.binding.coap.Activator 
+Register CoAP RestClientService..
+[2024-02-27 13:06:00,672 INFO] - org.eclipse.om2m.binding.coap.Activator 
+Starting CoAP server
+[2024-02-27 13:06:00,695 INFO] - org.eclipse.om2m.binding.coap.Activator 
+CseService opened
+[2024-02-27 13:06:00,696 INFO] - org.eclipse.om2m.binding.http.Activator 
+Register HTTP RestClientService..
+[2024-02-27 13:06:00,699 INFO] - org.eclipse.om2m.binding.http.Activator 
+HTTP RestClientService is registered.
+[2024-02-27 13:06:00,711 INFO] - org.eclipse.om2m.persistence.mongodb.Activator 
+start mongoDb bundle
+[2024-02-27 13:06:00,879 INFO] - org.eclipse.om2m.persistence.mongodb.DBServiceImpl 
+mongoDB client=Mongo{options=MongoClientOptions{description='null', applicationName='null', readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, fsync=null, journal=null, readConcern=com.mongodb.ReadConcern@0, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@7b15596, commandListeners=[], clusterListeners=[], serverListeners=[], serverMonitorListeners=[], minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=0, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@5ed653ed, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@3d4db653, socketFactory=null, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+[2024-02-27 13:06:00,903 INFO] - org.eclipse.om2m.core.Activator 
+Starting CSE...
+[2024-02-27 13:06:00,903 INFO] - org.eclipse.om2m.core.Activator 
+Added Data Mapper Service: application/xml
+[2024-02-27 13:06:00,904 INFO] - org.eclipse.om2m.core.Activator 
+Added Data Mapper Service: application/json
+[2024-02-27 13:06:00,904 INFO] - org.eclipse.om2m.core.Activator 
+DataBase persistence service discovered
+[2024-02-27 13:06:00,905 INFO] - org.eclipse.om2m.core.thread.CoreExecutor 
+Creating thread pool with corePoolSize=5 & maximumSize=50
+[2024-02-27 13:06:00,907 INFO] - org.eclipse.om2m.core.Activator 
+Rest client service discovered. Protocol: coap
+[2024-02-27 13:06:00,907 INFO] - org.eclipse.om2m.core.Activator 
+Rest client service discovered. Protocol: http
+[2024-02-27 13:06:00,908 INFO] - org.eclipse.om2m.core.CSEInitializer 
+Initializating the cseBase
+[2024-02-27 13:06:00,910 INFO] - org.eclipse.om2m.binding.http.Activator 
+HttpService discovered
+[2024-02-27 13:06:00,911 INFO] - org.eclipse.om2m.binding.http.Activator 
+Register / context
+[2024-02-27 13:06:00,952 INFO] - org.eclipse.om2m.webapp.resourcesbrowser.json.Activator 
+HttpService discovered
+[2024-02-27 13:06:00,952 INFO] - org.eclipse.om2m.webapp.resourcesbrowser.json.Activator 
+Register /webpage http context
